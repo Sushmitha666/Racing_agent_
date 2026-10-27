@@ -1,0 +1,466 @@
+{
+ "classical_astar_purepursuit": {
+  "hard_tracks": {
+   "avg_reward": 50.411058427411554,
+   "reward_var": 12.53072588935554,
+   "avg_ep_len": 427.85,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 42.785,
+   "avg_skids": 0.0
+  },
+  "camera_noise_10pct": {
+   "avg_reward": 44.385798895975185,
+   "reward_var": 4.276632289964777,
+   "avg_ep_len": 362.1,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 36.209999999999994,
+   "avg_skids": 0.0
+  },
+  "hard_tracks+camera_noise": {
+   "avg_reward": 50.411058427411554,
+   "reward_var": 12.53072588935554,
+   "avg_ep_len": 427.85,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 42.785,
+   "avg_skids": 0.0
+  }
+ },
+ "ppo_astar_only_s0": {
+  "hard_tracks": {
+   "avg_reward": 49.97824868296378,
+   "reward_var": 13.505544901932993,
+   "avg_ep_len": 266.75,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 26.675,
+   "avg_skids": 15.3
+  },
+  "camera_noise_10pct": {
+   "avg_reward": 44.233192662183306,
+   "reward_var": 4.533099791806286,
+   "avg_ep_len": 233.4,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 23.34,
+   "avg_skids": 9.2
+  },
+  "hard_tracks+camera_noise": {
+   "avg_reward": 49.97824868296378,
+   "reward_var": 13.505544901932993,
+   "avg_ep_len": 266.75,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 26.675,
+   "avg_skids": 15.3
+  }
+ },
+ "ppo_astar_only_s1": {
+  "hard_tracks": {
+   "avg_reward": 49.998660058692295,
+   "reward_var": 13.888415323780047,
+   "avg_ep_len": 261.55,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 26.155,
+   "avg_skids": 15.5
+  },
+  "camera_noise_10pct": {
+   "avg_reward": 44.28329643699108,
+   "reward_var": 4.66653873983937,
+   "avg_ep_len": 229.6,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 22.96,
+   "avg_skids": 8.25
+  },
+  "hard_tracks+camera_noise": {
+   "avg_reward": 49.998660058692295,
+   "reward_var": 13.888415323780047,
+   "avg_ep_len": 261.55,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 26.155,
+   "avg_skids": 15.5
+  }
+ },
+ "ppo_astar_only_s2": {
+  "hard_tracks": {
+   "avg_reward": 49.87286003983594,
+   "reward_var": 13.622657044461775,
+   "avg_ep_len": 258.2,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 25.82,
+   "avg_skids": 17.65
+  },
+  "camera_noise_10pct": {
+   "avg_reward": 44.22111272751035,
+   "reward_var": 4.64508070167175,
+   "avg_ep_len": 225.7,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 22.57,
+   "avg_skids": 9.35
+  },
+  "hard_tracks+camera_noise": {
+   "avg_reward": 49.87286003983594,
+   "reward_var": 13.622657044461775,
+   "avg_ep_len": 258.2,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 25.82,
+   "avg_skids": 17.65
+  }
+ },
+ "ppo_full_hybrid_s0": {
+  "hard_tracks": {
+   "avg_reward": 49.97926686266733,
+   "reward_var": 13.28307757773808,
+   "avg_ep_len": 261.25,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 26.125000000000007,
+   "avg_skids": 15.1
+  },
+  "camera_noise_10pct": {
+   "avg_reward": 44.22320762970391,
+   "reward_var": 4.560641781317039,
+   "avg_ep_len": 230.9,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 23.09,
+   "avg_skids": 9.3
+  },
+  "hard_tracks+camera_noise": {
+   "avg_reward": 49.81745749269472,
+   "reward_var": 12.987126033032922,
+   "avg_ep_len": 263.4,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 26.339999999999996,
+   "avg_skids": 18.35
+  }
+ },
+ "ppo_full_hybrid_s1": {
+  "hard_tracks": {
+   "avg_reward": 49.97205940637106,
+   "reward_var": 13.406143637689539,
+   "avg_ep_len": 262.35,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 26.235000000000003,
+   "avg_skids": 15.7
+  },
+  "camera_noise_10pct": {
+   "avg_reward": 44.17790054410473,
+   "reward_var": 4.714678650905755,
+   "avg_ep_len": 227.3,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 22.73,
+   "avg_skids": 10.55
+  },
+  "hard_tracks+camera_noise": {
+   "avg_reward": 49.798360192978116,
+   "reward_var": 13.680742478126508,
+   "avg_ep_len": 262.95,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 26.295000000000005,
+   "avg_skids": 18.75
+  }
+ },
+ "ppo_full_hybrid_s2": {
+  "hard_tracks": {
+   "avg_reward": 48.72086225514736,
+   "reward_var": 16.257979756791748,
+   "avg_ep_len": 289.2,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 28.919999999999998,
+   "avg_skids": 39.45
+  },
+  "camera_noise_10pct": {
+   "avg_reward": 43.54240990444579,
+   "reward_var": 4.965219451709968,
+   "avg_ep_len": 248.8,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 24.880000000000003,
+   "avg_skids": 22.0
+  },
+  "hard_tracks+camera_noise": {
+   "avg_reward": 48.48646209615164,
+   "reward_var": 15.236834100975377,
+   "avg_ep_len": 293.9,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 29.390000000000004,
+   "avg_skids": 43.95
+  }
+ },
+ "ppo_vision_astar_lstm_s0": {
+  "hard_tracks": {
+   "avg_reward": 48.97376471765395,
+   "reward_var": 15.245842978448675,
+   "avg_ep_len": 269.0,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 26.9,
+   "avg_skids": 35.0
+  },
+  "camera_noise_10pct": {
+   "avg_reward": 43.46521154948018,
+   "reward_var": 4.847657055390647,
+   "avg_ep_len": 231.15,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 23.115000000000002,
+   "avg_skids": 24.65
+  },
+  "hard_tracks+camera_noise": {
+   "avg_reward": 48.77606012580744,
+   "reward_var": 14.338354755109625,
+   "avg_ep_len": 270.35,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 27.035000000000004,
+   "avg_skids": 39.4
+  }
+ },
+ "ppo_vision_astar_lstm_s1": {
+  "hard_tracks": {
+   "avg_reward": 49.21186196199791,
+   "reward_var": 14.439044210209389,
+   "avg_ep_len": 269.95,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 26.995000000000005,
+   "avg_skids": 30.2
+  },
+  "camera_noise_10pct": {
+   "avg_reward": 42.96618689231521,
+   "reward_var": 4.110065271941745,
+   "avg_ep_len": 245.65,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 24.565000000000005,
+   "avg_skids": 33.95
+  },
+  "hard_tracks+camera_noise": {
+   "avg_reward": 48.53805342834607,
+   "reward_var": 13.152960740558777,
+   "avg_ep_len": 283.1,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 28.309999999999995,
+   "avg_skids": 43.75
+  }
+ },
+ "ppo_vision_astar_lstm_s2": {
+  "hard_tracks": {
+   "avg_reward": 49.77876032978379,
+   "reward_var": 14.029654496018455,
+   "avg_ep_len": 262.75,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 26.275,
+   "avg_skids": 19.25
+  },
+  "camera_noise_10pct": {
+   "avg_reward": 43.98200003443522,
+   "reward_var": 4.714790841456258,
+   "avg_ep_len": 231.5,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 23.15,
+   "avg_skids": 14.2
+  },
+  "hard_tracks+camera_noise": {
+   "avg_reward": 47.577933968874795,
+   "reward_var": 41.8771688554735,
+   "avg_ep_len": 259.45,
+   "success_rate": 0.9,
+   "off_track_rate": 0.1,
+   "avg_lap_time": 26.661111111111115,
+   "avg_skids": 23.5
+  }
+ },
+ "ppo_vision_astar_s0": {
+  "hard_tracks": {
+   "avg_reward": 50.05415291916894,
+   "reward_var": 12.90634132624283,
+   "avg_ep_len": 270.05,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 27.004999999999995,
+   "avg_skids": 13.55
+  },
+  "camera_noise_10pct": {
+   "avg_reward": 43.69861221875313,
+   "reward_var": 4.626806561837028,
+   "avg_ep_len": 243.2,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 24.320000000000004,
+   "avg_skids": 19.1
+  },
+  "hard_tracks+camera_noise": {
+   "avg_reward": 47.489971042253664,
+   "reward_var": 76.7508109649311,
+   "avg_ep_len": 265.95,
+   "success_rate": 0.95,
+   "off_track_rate": 0.05,
+   "avg_lap_time": 27.48947368421053,
+   "avg_skids": 25.3
+  }
+ },
+ "ppo_vision_astar_s1": {
+  "hard_tracks": {
+   "avg_reward": 26.241732640662907,
+   "reward_var": 239.31215140076134,
+   "avg_ep_len": 161.35,
+   "success_rate": 0.1,
+   "off_track_rate": 0.9,
+   "avg_lap_time": 26.5,
+   "avg_skids": 4.1
+  },
+  "camera_noise_10pct": {
+   "avg_reward": 44.09778763493984,
+   "reward_var": 4.758721821684227,
+   "avg_ep_len": 239.85,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 23.985000000000003,
+   "avg_skids": 11.35
+  },
+  "hard_tracks+camera_noise": {
+   "avg_reward": 26.78956246213869,
+   "reward_var": 254.69721202583673,
+   "avg_ep_len": 166.2,
+   "success_rate": 0.15,
+   "off_track_rate": 0.85,
+   "avg_lap_time": 25.933333333333334,
+   "avg_skids": 7.95
+  }
+ },
+ "ppo_vision_astar_s2": {
+  "hard_tracks": {
+   "avg_reward": 49.44114935909369,
+   "reward_var": 14.512876831897822,
+   "avg_ep_len": 269.05,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 26.905,
+   "avg_skids": 25.95
+  },
+  "camera_noise_10pct": {
+   "avg_reward": 43.498710485250704,
+   "reward_var": 4.436182166818741,
+   "avg_ep_len": 234.4,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 23.44,
+   "avg_skids": 23.55
+  },
+  "hard_tracks+camera_noise": {
+   "avg_reward": 49.1565581044384,
+   "reward_var": 14.040901610548682,
+   "avg_ep_len": 271.35,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 27.135,
+   "avg_skids": 31.25
+  }
+ },
+ "ppo_vision_s0": {
+  "hard_tracks": {
+   "avg_reward": 49.686351405933166,
+   "reward_var": 14.28934887481351,
+   "avg_ep_len": 268.95,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 26.895000000000003,
+   "avg_skids": 21.05
+  },
+  "camera_noise_10pct": {
+   "avg_reward": 33.09095522172024,
+   "reward_var": 151.36203036782297,
+   "avg_ep_len": 224.15,
+   "success_rate": 0.55,
+   "off_track_rate": 0.4,
+   "avg_lap_time": 24.254545454545454,
+   "avg_skids": 21.1
+  },
+  "hard_tracks+camera_noise": {
+   "avg_reward": 16.43359589224344,
+   "reward_var": 183.55475000619748,
+   "avg_ep_len": 178.85,
+   "success_rate": 0.0,
+   "off_track_rate": 0.9,
+   "avg_lap_time": null,
+   "avg_skids": 12.15
+  }
+ },
+ "ppo_vision_s1": {
+  "hard_tracks": {
+   "avg_reward": 49.93855295139535,
+   "reward_var": 13.531918149695116,
+   "avg_ep_len": 265.35,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 26.535000000000004,
+   "avg_skids": 16.15
+  },
+  "camera_noise_10pct": {
+   "avg_reward": 43.965915143536414,
+   "reward_var": 4.699423490283297,
+   "avg_ep_len": 230.8,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 23.08,
+   "avg_skids": 14.35
+  },
+  "hard_tracks+camera_noise": {
+   "avg_reward": 49.54005680263336,
+   "reward_var": 13.613659719918084,
+   "avg_ep_len": 265.85,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 26.585,
+   "avg_skids": 24.0
+  }
+ },
+ "ppo_vision_s2": {
+  "hard_tracks": {
+   "avg_reward": 49.6448668375667,
+   "reward_var": 13.292031587544235,
+   "avg_ep_len": 262.2,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 26.220000000000006,
+   "avg_skids": 21.85
+  },
+  "camera_noise_10pct": {
+   "avg_reward": 44.01760580921676,
+   "reward_var": 4.6375282250447,
+   "avg_ep_len": 232.45,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 23.245000000000005,
+   "avg_skids": 12.85
+  },
+  "hard_tracks+camera_noise": {
+   "avg_reward": 49.519654689650004,
+   "reward_var": 13.216601983333907,
+   "avg_ep_len": 268.55,
+   "success_rate": 1.0,
+   "off_track_rate": 0.0,
+   "avg_lap_time": 26.855,
+   "avg_skids": 24.5
+  }
+ }
+}
